@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-let players = ["Teodor", "Ivo", "Maria", "Gosho", "Petya", "Stoyan"];
+let players = ["Теодор", "Николай", "Александър", "Маргарита", "Габриела"];
 const ADMIN_PASS = process.env.ADMIN_PASS || "admin123";
 
 // -- КОНФИГУРАЦИЯ НА ДАННИТЕ --
