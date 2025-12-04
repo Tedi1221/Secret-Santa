@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="/styles.css">
+<title>Admin</title>
+</head>
+<body class="bg-gray-800 min-h-screen flex items-center justify-center">
+
+<div class="card max-w-md">
+<h1 class="title">Админ панел 🔐</h1>
+
+<form action="/admin" method="POST" class="space-y-4">
+<input type="password" name="pass" placeholder="Парола" class="input" required>
+<input type="number" name="limit" placeholder="Лимит на подаръка (лв)" class="input" required>
+<button class="btn">Генерирай наново</button>
+</form>
+</div>
+
+</body>
+</html>

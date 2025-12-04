@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="/snow.js" defer></script>
+<link rel="stylesheet" href="/styles.css">
+<title>Secret Santa</title>
+</head>
+<body class="bg-gradient-to-br from-green-700 to-green-900 min-h-screen flex items-center justify-center">
+
+<div class="card">
+<h1 class="title text-green-200">🎄 Здравей, <%= name %>!</h1>
+<p class="text-white text-xl mt-3">Ти ще подариш на:</p>
+
+<div class="result-box">🎁 <%= receiver %></div>
+
+<p class="text-white mt-4">Лимит: <b><%= giftLimit %> лв</b></p>
+
+<a href="/" class="btn bg-green-600 hover:bg-green-700 block text-center mt-6">⬅️ Обратно</a>
+</div>
+
+</body>
+</html>
